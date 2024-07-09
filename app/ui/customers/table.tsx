@@ -12,7 +12,7 @@ export default async function CustomersTable({
 }) {
   return (
     <div className="w-full">
-      <h1 className={`mb-8 text-xl md:text-2xl`}>
+      <h1 className='mb-8 text-xl md:text-2xl'>
         Customers
       </h1>
       <Search placeholder="Search customers..." />
@@ -24,8 +24,8 @@ export default async function CustomersTable({
                 {customers?.map((customer) => (
                   <div
                     key={customer.id}
-                    className="mb-2 w-full rounded-md bg-white p-4"
-                  >
+                    className="mb-2 w-full rounded-md bg-white p-4">
+                      
                     <div className="flex items-center justify-between border-b pb-4">
                       <div>
                         <div className="mb-2 flex items-center">
